@@ -1,0 +1,12 @@
+saved_models/
+venv/
+checkpoints/*.pt
+
+*.pt
+*.zip
+*.idea
+*.vscode
+*.DS_Store
+*.ipynb_checkpoints
+*.pyc
+*__pycache__

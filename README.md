@@ -54,7 +54,7 @@ pip install -r requirements.txt
 
 The in-context examples can be randomly or retrieval-based selected from the training set. Recent research, however, has shown that few-shot GPT-3 can be highly unstable across different selections of in-context examples. We aim propose a novel approach, **PromptPG**, that can learn to select performing in-context examples using a policy gradient strategy, without brute-force searching or manually designed heuristics.
 
-![scienceqa](imgs/algorithm.png)
+![algorithm](data/algorithm.png)
 
 ### Train the PromptPG Strategy
 

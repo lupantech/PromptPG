@@ -1,6 +1,6 @@
 saved_models/
 venv/
-# checkpoints/*.pt
+checkpoints/*.pt
 
 *.zip
 *.idea

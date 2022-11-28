@@ -117,7 +117,7 @@ def parse_args():
     parser.add_argument('--debug', action='store_true')
     parser.add_argument('--prompt_format', type=str, default='TQ', help='prompt format template')
     parser.add_argument('--shot_number', type=int, default=2, help='Number of n-shot training examples.')
-    parser.add_argument('--shot_pids', type=list, default=None, help='Question indexes of shot examples')
+    parser.add_argument('--shot_pids', type=int, nargs='+', default=None, help='Question indexes of shot examples')
     parser.add_argument('--seed', type=int, default=1, help='random seed')
     # GPT-3 settings
     parser.add_argument('--engine', type=str, default='text-davinci-002', choices=['text-davinci-002', 'ada'])
